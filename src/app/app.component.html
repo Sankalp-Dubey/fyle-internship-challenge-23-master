@@ -43,7 +43,7 @@
          <p class=" my-2 mx-1 border-zinc-950">
            {{ repo.description }}
          </p>
-         <div class=" border-zinc-950 flex flex-row ">
+         <div class=" border-zinc-950 flex flex-col md:flex-row ">
         
             <p class=" rounded-lg my-4 mx-1 bg-blue-400  text-white py-1 px-2" *ngFor="let lang of repoLanguages[repo.name] | keyvalue">
               {{ lang.key }}
